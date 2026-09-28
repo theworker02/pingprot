@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pingprot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ping lightweight prot statistics from stdin samples.",
+  "bin": {
+    "pingprot": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pingprot.git"
+  },
+  "homepage": "https://theworker02.github.io/pingprot/",
+  "keywords": [
+    "ping",
+    "prot",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
